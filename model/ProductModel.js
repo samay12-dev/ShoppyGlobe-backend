@@ -4,5 +4,5 @@ const schema=mongoose.Schema({
     description:String,
     Price:String
 })
-const user= mongoose.model("cart",schema)
+const user= mongoose.model("Product",schema)
 export default user
